@@ -4,7 +4,7 @@ import json
 import operator
 import twitter
 import script as pi
-from watson_developer_cloud import PersonalityInsightsV2 as PersonalityInsights 
+from watson_developer_cloud import PersonalityInsightsV3 as PersonalityInsights 
 
 #This function is used to receive and analyze
 #the last 200 tweets of a Twitter handle using
